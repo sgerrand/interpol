@@ -14,7 +14,3 @@ gem 'compass_twitter_bootstrap', :git => 'git://github.com/vwall/compass-twitter
 gem 'json', :platform => 'ruby_18'
 
 gem 'cane', '~> 2.6' if RUBY_VERSION.to_f > 1.8
-
-# 1.6 won't install on JRuby or 1.8.7 :(.
-gem 'nokogiri', '~> 1.5.10'
-
